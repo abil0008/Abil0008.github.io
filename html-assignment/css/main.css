@@ -1,0 +1,41 @@
+body {
+    background-color: beige;
+}
+
+body {
+    font-size: 18px;
+}
+
+body {
+    font-family: Cooper Black;
+}
+
+h1, h2, h3, h4, h5, h6, footer {
+    background-color: bisque;
+}
+
+.site-title {
+    color: cadetblue;
+}
+
+#my-image {
+    box-shadow: 0px 0px 2px 1px black
+}
+
+ul {
+    list-style-type: square;
+}
+ 
+li:nth-child(odd) {
+    background-color:burlywood
+}
+
+a:link {
+    background-color: crimson;
+    text-decoration: none;
+    border-style: dashed;
+}
+
+a:hover {
+    background-color: blueviolet;
+}
