@@ -1,7 +1,97 @@
 body {
-    background-color: #aad4cf
+    width: 60%;
+    background-color: #aad4cf;
+    position: relative;
+    right: 10px;
+    left: 350px;
+}
+
+header {
+    font-size: 60px;
+    font-family: sans-serif;
+    color: white;
+    position: absolute;
+    top: 15%;
+    width: 100%;
+    text-align: center;
+}
+
+nav {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+}
+
+#my-image2 {
+    width: 19%;
+    position: relative;
+    left: 10px;
+    float: left;
+}
+
+article {
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 600;
+    position: relative;
+    left: 10px;
+    bottom: 10px;
+}
+
+.info {
+    position: relative;
+    width: 1000px;
+    left: 30px;
+    right: 100px;
 }
 
 form div {
-        box-shadow: 0px 0px 2px 1px black
+        box-shadow: 0px 0px 1px 1px black;
+        line-height: 2rem;
+    }
+
+    label {
+        position: relative;
+        left: 10px;
+    }
+
+     #fullname, #email, #message {
+         display: block;
+         width: 90%;
+         position: relative;
+         left: 10px;
+     }
+
+    #message {
+        height: 100px;
+    }
+
+    ::placeholder {
+        position: relative;
+        bottom: 40px;
+    }
+
+    button {
+        display: block;
+        position: relative;
+        left: 10px;
+    }
+
+    h3 {
+        position: relative;
+        left: 10px;
+    }
+
+    input {
+        position: relative;
+        left: 10px;
+    }
+    
+    section {
+        width: 98.6%;
+        height: 100%;
+        background-color: rgba(255, 255, 255, 0.466);
+        background-position-x: 100px;
     }
