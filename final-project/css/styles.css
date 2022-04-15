@@ -1,7 +1,10 @@
+/* I know that none of this is the best way to approach, but I genuinely could not get things going well for me... sorry! */
+
 * {
     position: relative;
     margin-left: auto;
     margin-right: auto;
+    /* width: 1200px; */
 }
 
 body {
@@ -13,8 +16,8 @@ body {
     
 
 header { 
-    background-color: black;
-    color: coral;
+    background-color: #222;
+    color: #c78c06;
     margin: 0px;
     padding: 0px;
     position: absolute;
@@ -33,7 +36,7 @@ header {
 
 
 li:nth-child(1) {
-    background-color: orange;
+    background-color: #c78c06;
     padding: 10px;
     padding-left: 20px;
     padding-right: 20px;
@@ -48,13 +51,6 @@ li {
     left: 200px;
     display: inline;
     margin: 30px;
-}
-
-.search-box {
-    position: relative;
-    float: right;
-    right: 50px;
-    bottom: 85px;
 }
 
 .banner {
@@ -81,18 +77,227 @@ li {
 }
 
 .Welcome h4 {
-    background-color: orange;
+    background-color: #c78c06;
     font-size: large;
     text-align: center;
     padding: 30px 1px 30px;
     width: 200px;
     position: relative;
     right: 265px;
-    color: black;
+    color: #222;
 }
 
+
 .AboutUs {
-    background-color:bisque;
+    background-color:#ffe6ac;
+    position: relative;
+    bottom: 500px;
+}
+
+.AboutUs h2 {
+    font-size: 50px;
+    font: bolder;
+    left: 590px;
+    bottom: 220px;
+}
+
+.AboutUs p {
+    font-size: 20px;
+    width: 450px;
+    position: relative;
+    left: 280px;
+    bottom: 220px;
+}
+
+.PingPong {
+    height: 200px;
+    left: 170px;
+    top: 10px;
+}
+
+.Services {
+    position: relative;
+    bottom: 500px;
+}
+
+.Services h2 {
+    position: relative;
+    left: 360px;
+    font-size: 40px;
+}
+
+.DigitalTransformation {
+    background-color: #ffe6ac;
+    width: 350px;
+    height: 450px;
+}
+
+.DigitalTransformation p {
+    position: relative;
+    left: 10px;
+}
+
+.DigitalTransformation h3 {
+    font-size: 30px;
+    font: bolder;
+    position: relative;
+    left: 10px;
+} 
+
+.DigitalTransformation h4 {
+    text-align: center;
+    background-color: #222;
+    color: white;
+    padding: 15px;
+    width: 300px;
+    position: relative;
+    bottom: 10px;
+}
+
+.Digital {
+    width: 350px;
+}
+
+.Market {
+    background-color: #ffe6ac;
+    width: 350px;
+    height: 450px;
+    position: relative;
+    bottom: 450px;
+    left: 360px;
+}
+
+.Market p {
+    position: relative;
+    left: 10px;
+}
+
+.Market h3 {
+    font-size: 30px;
+    font: bolder;
+    position: relative;
+    left: 10px;
+}
+
+.Market h4 {
+    text-align: center;
+    background-color: #222;
+    color: white;
+    padding: 15px;
+    width: 300px;
+    position: relative;
+    bottom: 10px;
+}
+
+.Marketing {
+    width: 350px;
+}
+
+
+.VideoProduction {
+    background-color: #ffe6ac;
+    width: 233px;
+    height: 400px;
+    position: relative;
+    bottom: 440px;
+    right: 58px;
+}
+
+.VideoProduction p {
+    position: relative;
+    left: 12px;
+}
+
+.VideoProduction h3 {
+    font-size: 25px;
+    font: bold;
+    position: relative;
+    left: 9px;
+}
+
+.VideoProduction h4 {
+    text-align: center;
+    background-color: #222;
+    color: white;
+    padding: 15px;
+    width: 180px;
+    position: relative;
+    bottom: 5px;
+}
+
+.Video {
+    width: 233px;
+}
+
+.WebDevelopment {
+    background-color: #ffe6ac;
+    width: 233px;
+    height: 400px;
+    position: relative;
+    bottom: 840px;
+    left: 190px;
+}
+
+.WebDevelopment p {
+    position: relative;
+    left: 12px;
+}
+
+.WebDevelopment h3 {
+    font-size: 25px;
+    font: bold;
+    position: relative;
+    left: 8px;
+}
+
+.WebDevelopment h4 {
+    text-align: center;
+    background-color: #222;
+    color: white;
+    padding: 15px;
+    width: 180px;
+    position: relative;
+    top: 13px; 
+}
+
+.Web {
+    width: 233px;
+}
+
+.Print {
+    background-color: #ffe6ac;
+    width: 215px;
+    height: 400px;
+    position: relative;
+    bottom: 1240px;
+    left: 428px;
+}
+
+.Print p {
+    position: relative;
+    width: 190px;
+}
+
+.Print h3 {
+    font-size: 25px;
+    font: bold;
+    position: relative;
+    left: 8px;
+}
+
+.Print h4 {
+    text-align: center;
+    background-color: #222;
+    color: white;
+    padding: 15px;
+    width: 160px;
+    position: relative;
+    bottom: 5px; 
+}
+
+.Printed {
+    width: 210px;
+    height: 155px;
 }
 
 #fullname, #email, #message {
