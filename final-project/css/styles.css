@@ -92,25 +92,26 @@ li {
     background-color:#ffe6ac;
     position: relative;
     bottom: 500px;
+    height: 200px;
 }
 
 .AboutUs h2 {
     font-size: 50px;
     font: bolder;
-    left: 590px;
-    bottom: 220px;
+    left: 540px;
+    bottom: 230px;
 }
 
 .AboutUs p {
-    font-size: 20px;
+    font-size: 15px;
     width: 450px;
     position: relative;
-    left: 280px;
-    bottom: 220px;
+    left: 230px;
+    bottom: 270px;
 }
 
 .PingPong {
-    height: 200px;
+    height: 180px;
     left: 170px;
     top: 10px;
 }
@@ -118,6 +119,7 @@ li {
 .Services {
     position: relative;
     bottom: 500px;
+    right: 200px;
 }
 
 .Services h2 {
