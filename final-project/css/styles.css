@@ -4,7 +4,11 @@
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    /* width: 1200px; */
+    width: 1200px;
+}
+
+title {
+    font-family: Open Sans
 }
 
 body {
@@ -13,9 +17,13 @@ body {
     box-sizing: border-box;
     position: absolute;
 }
-    
 
-header { 
+main {
+    position: relative;
+    bottom: 520px;
+}
+
+header {
     background-color: #222;
     color: #c78c06;
     margin: 0px;
@@ -41,7 +49,7 @@ li:nth-child(1) {
     padding-left: 20px;
     padding-right: 20px;
     color: black;
-    
+
 }
 
 
@@ -73,7 +81,10 @@ li {
 }
 
 .Welcome h1 {
-    font-size: 70px
+    font-size: 50px;
+    width: 500px;
+    position: relative;
+    right: 110px;
 }
 
 .Welcome h4 {
@@ -83,10 +94,15 @@ li {
     padding: 30px 1px 30px;
     width: 200px;
     position: relative;
-    right: 265px;
+    right: 255px;
     color: #222;
 }
 
+.Welcome p {
+    width: 700px;
+    position: relative;
+    right: 6px;
+}
 
 .AboutUs {
     background-color:#ffe6ac;
@@ -98,7 +114,7 @@ li {
 .AboutUs h2 {
     font-size: 50px;
     font: bolder;
-    left: 540px;
+    left: 630px;
     bottom: 230px;
 }
 
@@ -106,20 +122,38 @@ li {
     font-size: 15px;
     width: 450px;
     position: relative;
-    left: 230px;
+    left: 260px;
     bottom: 270px;
 }
 
 .PingPong {
     height: 180px;
-    left: 170px;
+    width: 400px;
+    left: 220px;
     top: 10px;
 }
 
-.Services {
+.Service {
     position: relative;
-    bottom: 500px;
-    right: 200px;
+    top: 50px;
+}
+
+.Service h2 {
+    position: relative;
+    left: 220px;
+    font-size: 40px;
+}
+
+.Services1 {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.Services2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .Services h2 {
@@ -130,13 +164,16 @@ li {
 
 .DigitalTransformation {
     background-color: #ffe6ac;
-    width: 350px;
-    height: 450px;
+    width: 390px;
+    height: 500px;
+    position: relative;
+    left: 115px;
 }
 
 .DigitalTransformation p {
     position: relative;
     left: 10px;
+    width: 400px;
 }
 
 .DigitalTransformation h3 {
@@ -144,34 +181,36 @@ li {
     font: bolder;
     position: relative;
     left: 10px;
-} 
+}
 
 .DigitalTransformation h4 {
     text-align: center;
+    justify-content: center;
     background-color: #222;
     color: white;
-    padding: 15px;
-    width: 300px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 370px;
     position: relative;
-    bottom: 10px;
+
 }
 
 .Digital {
-    width: 350px;
+    width: 390px;
 }
 
 .Market {
     background-color: #ffe6ac;
-    width: 350px;
-    height: 450px;
+    width: 390px;
+    height: 500px;
     position: relative;
-    bottom: 450px;
-    left: 360px;
+    right: 80px;
 }
 
 .Market p {
     position: relative;
     left: 10px;
+    width: 400px;
 }
 
 .Market h3 {
@@ -185,121 +224,128 @@ li {
     text-align: center;
     background-color: #222;
     color: white;
-    padding: 15px;
-    width: 300px;
-    position: relative;
-    bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 370px;
 }
 
 .Marketing {
-    width: 350px;
+    width: 390px;
 }
 
 
 .VideoProduction {
     background-color: #ffe6ac;
-    width: 233px;
+    width: 260px;
     height: 400px;
     position: relative;
-    bottom: 440px;
-    right: 58px;
+    left: 220px;
 }
 
 .VideoProduction p {
+    width: 240px;
+    font-size: small;
     position: relative;
-    left: 12px;
+    left: 5px;
 }
 
 .VideoProduction h3 {
     font-size: 25px;
     font: bold;
     position: relative;
-    left: 9px;
+    left: 10px;
 }
 
 .VideoProduction h4 {
-    text-align: center;
     background-color: #222;
     color: white;
-    padding: 15px;
+    text-align: center;
+    padding: 25px;
     width: 180px;
     position: relative;
-    bottom: 5px;
+    bottom: 15px;
 }
 
 .Video {
-    width: 233px;
+    width: 260px;
 }
 
 .WebDevelopment {
     background-color: #ffe6ac;
-    width: 233px;
+    width: 260px;
     height: 400px;
     position: relative;
-    bottom: 840px;
-    left: 190px;
+    left: 123px;
 }
 
 .WebDevelopment p {
+    width: 240px;
+    font-size: small;
     position: relative;
-    left: 12px;
+    left: 5px;
 }
 
 .WebDevelopment h3 {
     font-size: 25px;
     font: bold;
     position: relative;
-    left: 8px;
+    left: 10px;
 }
 
 .WebDevelopment h4 {
     text-align: center;
     background-color: #222;
     color: white;
-    padding: 15px;
+    padding: 25px;
     width: 180px;
     position: relative;
-    top: 13px; 
+    bottom: 15px;
 }
 
 .Web {
-    width: 233px;
+    width: 260px;
 }
 
 .Print {
     background-color: #ffe6ac;
-    width: 215px;
+    width: 260px;
     height: 400px;
     position: relative;
-    bottom: 1240px;
-    left: 428px;
+    right: 80px;
 }
 
 .Print p {
+    width: 240px;
+    font-size: small;
     position: relative;
-    width: 190px;
+    left: 5px;
 }
 
 .Print h3 {
     font-size: 25px;
     font: bold;
     position: relative;
-    left: 8px;
+    left: 13px;
 }
 
 .Print h4 {
     text-align: center;
     background-color: #222;
     color: white;
-    padding: 15px;
-    width: 160px;
+    padding: 25px;
+    width: 180px;
     position: relative;
-    bottom: 5px; 
+    bottom: 15px;
 }
 
 .Printed {
-    width: 210px;
-    height: 155px;
+    width: 260px;
+}
+
+.Vis {
+    position: relative;
+    bottom: 400px;
+
 }
 
 #fullname, #email, #message {
