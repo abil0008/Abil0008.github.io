@@ -1,5 +1,5 @@
 /* I know that none of this is the best way to approach, and is even incomplete, but I genuinely could not get things going well for me... sorry! */
-/* Desktop version is complete, yet mobile approach is giving me troubles */
+/* Desktop version is complete, yet the mobile style is nowhere near complete and I'm very sorry.*/
 
 * {
     position: relative;
@@ -9,30 +9,18 @@
     /* font-family: 'Open Sans', sans-serif; */
     /* all: unset; */
 }
-
+/* I'm sorry, but I just can't anymore... */
 @media screen and (max-width: 760px) {
     * {
         margin: 1rem auto;
         width: 90%;
         padding: 1rem;
+        all:unset;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
     }
 }
-
-@media screen and (max-width: 760px) {
-    header {
-        width: 90%;
-    }
-}
-
-@media screen and (max-width: 760px ){
-    ul {
-        width: 90%;
-        position: relative;
-        bottom: 250px;
-    }
-}
-
-
 
 title {
     font-family: 'Open Sans', sans-serif;
